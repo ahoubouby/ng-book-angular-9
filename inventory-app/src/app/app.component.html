@@ -1,0 +1,5 @@
+<router-outlet></router-outlet>
+<product-list
+[productList]="products"
+(onProductSelected)="productWasSelected($event)">
+</product-list>
